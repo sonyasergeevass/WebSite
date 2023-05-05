@@ -1,0 +1,204 @@
+body{
+    background-image: url("img/2dg.jpg");
+    /*background-color: rgb(69, 182, 122);*/
+    background-blend-mode: screen;
+    margin: 0;
+  }
+  .top_head{
+    font-size: 29pt;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    width:auto;
+    /*background-color: rgb(65, 63, 63);*/
+    height: 44px;
+    padding-left: 90px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+
+}
+  
+  .menu_center{
+    text-align: center;
+    width:auto;
+    height:48px;
+    /*margin-top: 0px;*/
+    /*position: sticky;
+    top: 0;*/
+    /*background-image: url("img/2dg.jpg");
+    /*background-color: rgb(69, 182, 122);*/
+    /*background-blend-mode: screen;*/
+    /*padding-top:13px;*/
+    /*margin-bottom: 0px;
+    border-width: 1px;
+    border-left: 0;
+    border-right: 0;
+    border-color: black;
+    border-style: solid;*/
+  
+  }
+  
+  .menu_center ul{
+      width:auto;
+      height:20px;
+      padding-left: 17px;
+      /*background-color: rgb(255, 255, 255);*/
+      list-style: none; /*убираем маркеры списка*/
+      
+  }
+  
+   .menu_center a {
+      font-family: Arial, Helvetica, sans-serif;
+      color:rgb(255, 255, 255);
+      text-decoration: none;
+      font-size: 13pt; /*убираем подчеркивание текста ссылок*/
+    }
+    
+    .menu_center a:hover{
+      color: #d672d1;
+     }
+  
+    .menu_center li {
+      display:inline; /*Размещаем список горизонтально для реализации меню*/
+      padding-left: 10px;
+      
+      /*margin-left: 30px;
+      padding-left: 20px;
+      margin-right: 1px;
+      padding-right: 1px;*/
+    }
+
+    .blok1{
+        width: auto;
+        height:450px;
+        margin-left:85px;
+        margin-right: 100px;
+        }
+        
+        .blok1 h1{
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding-top: 10px;
+            padding-left:30px;
+            padding-bottom: 0;
+            font-size: 35pt;
+        }
+        .blok1  p{
+            padding-left: 10px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            margin-left: 30px;
+            font-size: 15pt;
+            font-style: italic;
+        }
+
+        .blok2{
+            width: auto;
+            height: auto;
+            background-color: #ffffff;
+            padding-top: 55px;
+
+            
+        }
+
+        .grey_blok{
+          font-size: 15pt;
+          font-family: Arial, Helvetica, sans-serif;
+          padding-left: 50px;
+          padding-top: 20px;
+          margin-left: 250px;
+          margin-right: 250px;
+          background-color: rgb(239, 239, 239);
+          width: auto;
+          height: 360px;
+        }
+
+        .grey_blok li{
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 13pt;
+          padding-top: 10px;
+        }
+
+        .grey_blok h1{
+          padding-left: 20px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 26px;
+        }
+
+        .main_info p{
+          line-height: 28px;
+          padding-bottom: 10px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 14pt;
+        }
+
+        .main_info{
+          background-color: rgb(255, 255, 255);
+         
+          padding-top: 20px;
+          margin-left: 250px;
+          margin-right: 250px;
+          width: auto;
+          height: auto;
+        }
+
+        .main_info h1{
+          padding-top: 30px;
+        color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 24pt;
+        }
+
+        .main_info li{
+          line-height: 28px;
+          padding-bottom: 10px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 13pt;
+        }
+
+        .main_info img{
+          width: 780px;
+        }
+        
+        figcaption{
+          color: rgb(151, 150, 150);
+          font-size:15px;
+        }
+
+        .main_info h2{
+        color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 17pt;
+        }
+
+        .main_info a{
+          color:rgb(46, 92, 190);
+        }
+
+        .main_info a:hover{
+          color: rgb(20, 68, 173);
+        }
+
+        .grey_blok a{
+          text-decoration: none;
+          color:rgb(46, 92, 190);
+        }
+
+        .grey_blok a:hover{
+          color:rgb(20, 68, 173);
+        }
+        .one_ref{
+          text-align: center;
+          margin-top: 200px;
+        }
+        .one_ref a{
+          text-decoration: none;
+          font-family:Arial, Helvetica, sans-serif;
+          font-size: 25px;
+          color:white;
+          padding-top:0px;
+        }
+
+        .one_ref a:hover{
+          color:#399f78;
+        }

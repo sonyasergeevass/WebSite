@@ -1,0 +1,23 @@
+<div class="badge badge-warning badge-pill">БПИ21-01 Сергеева 01.10.2022 21:04</div><br><div class="alert alert-success mt-3 p-1 alert-mess">Добро пожаловать в гостевую книгу WEBSITE! Оставляйте ваши комментарии :)</div><br>
+<div class="badge badge-warning badge-pill">ashihitea 02.10.2022 16:25</div><br><div class="alert alert-success mt-3 p-1 alert-mess">,</div><br>
+<div class="badge badge-warning badge-pill">ashihitea 02.10.2022 16:26</div><br><div class="alert alert-success mt-3 p-1 alert-mess">k</div><br>
+<div class="badge badge-warning badge-pill">ashihitea 02.10.2022 16:27</div><br><div class="alert alert-success mt-3 p-1 alert-mess">m</div><br>
+<div class="badge badge-warning badge-pill">ashihitea 03.10.2022 02:59</div><br><div class="alert alert-success mt-3 p-1 alert-mess">Здравствуйте</div><br>
+<div class="badge badge-warning badge-pill">Соня Сергеева 03.10.2022 03:54</div><br><div class="alert alert-success mt-3 p-1 alert-mess">Комментарий для отчета</div><br>
+<div class="badge badge-warning badge-pill">Соня Сергеева 03.10.2022 04:00</div><br><div class="alert alert-success mt-3 p-1 alert-mess">ее</div><br>
+<div class="badge badge-warning badge-pill">Соня Сергеева 03.10.2022 04:17</div><br><div class="alert alert-success mt-3 p-1 alert-mess">ап</div><br>
+<div class="badge badge-warning badge-pill">корона 13.11.2022 13:50</div><br><div class="alert alert-success mt-3 p-1 alert-mess">вирус</div><br>
+<div class="badge badge-warning badge-pill">корона 13.11.2022 13:56</div><br><div class="alert alert-success mt-3 p-1 alert-mess">e vfvb</div><br>
+<div class="badge badge-warning badge-pill">корона 13.11.2022 13:59</div><br><div class="alert alert-success mt-3 p-1 alert-mess">проверка прием</div><br>
+<div class="badge badge-warning badge-pill">корона 13.11.2022 14:12</div><br><div class="alert alert-success mt-3 p-1 alert-mess">котик у вас просто прелестный</div><br>
+<div class="badge badge-warning badge-pill">корона 13.11.2022 14:13</div><br><div class="alert alert-success mt-3 p-1 alert-mess">муррр</div><br>
+<div class="badge badge-warning badge-pill">корона 13.11.2022 14:15</div><br><div class="alert alert-success mt-3 p-1 alert-mess">aswer</div><br>
+<div class="badge badge-warning badge-pill">коронаaaa 13.11.2022 14:30</div><br><div class="alert alert-success mt-3 p-1 alert-mess">aaaa</div><br>
+<div class="badge badge-warning badge-pill">марковки  13.11.2022 15:03</div><br><div class="alert alert-success mt-3 p-1 alert-mess">у них иголки ковки</div><br>
+<div class="badge badge-warning badge-pill">Соня Сергеева 13.11.2022 16:37</div><br><div class="alert alert-success mt-3 p-1 alert-mess">Комментарии для отчета</div><br>
+<div class="badge badge-warning badge-pill">Любое имя ?:%;Оскар 13.11.2022 16:38</div><br><div class="alert alert-success mt-3 p-1 alert-mess">У вас очень милый котик на заставке!!!!</div><br>
+<div class="badge badge-warning badge-pill">Stray12.02.97@gr 13.11.2022 16:39</div><br><div class="alert alert-success mt-3 p-1 alert-mess">У вас отличный сайт :DDDDD</div><br>
+<div class="badge badge-warning badge-pill">Последний комментарий! 13.11.2022 16:41</div><br><div class="alert alert-success mt-3 p-1 alert-mess">Всем пока! Вернусь Завтра</div><br>
+<div class="badge badge-warning badge-pill">Последний комментарий! 13.11.2022 16:45</div><br><div class="alert alert-success mt-3 p-1 alert-mess">qwer</div><br>
+<div class="badge badge-warning badge-pill">Последний комментарий! 13.11.2022 16:56</div><br><div class="alert alert-success mt-3 p-1 alert-mess">dfghjhg</div><br>
+<div class="badge badge-warning badge-pill">котик 05.05.2023 11:09</div><br><div class="alert alert-success mt-3 p-1 alert-mess">мяу</div><br>

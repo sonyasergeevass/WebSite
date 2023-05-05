@@ -1,0 +1,114 @@
+body{
+    background-image: url("img/bg.jpg");
+    background-color: rgb(155, 151, 151);
+    background-blend-mode: screen;
+    margin: 0;
+  }
+  .top_head{
+    font-size: 29pt;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    width:auto;
+    background-color: rgb(65, 63, 63);
+    height: 44px;
+    padding-left: 90px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+
+}
+  
+  .menu_center{
+    text-align: center;
+    width:auto;
+    height:48px;
+    /*margin-top: 0px;*/
+    
+    background-color: #ffffff;
+    /*padding-top:13px;*/
+    margin-bottom: 0px;
+    border-width: 1px;
+    border-left: 0;
+    border-right: 0;
+    border-color: black;
+    border-style: solid;
+  
+  }
+  
+  ul {
+      width:auto;
+      height:20px;
+      padding-left: 17px;
+      background-color: rgb(255, 255, 255);
+      list-style: none; /*убираем маркеры списка*/
+      
+  }
+  
+  a {
+      font-family: Arial, Helvetica, sans-serif;
+      color:rgb(57, 55, 55);
+      text-decoration: none;
+      font-size: 13pt; /*убираем подчеркивание текста ссылок*/
+    }
+    
+    a:hover{
+      color: #d672d1;
+     }
+  
+    li {
+      display:inline; /*Размещаем список горизонтально для реализации меню*/
+      padding-left: 10px;
+      
+      /*margin-left: 30px;
+      padding-left: 20px;
+      margin-right: 1px;
+      padding-right: 1px;*/
+    }
+
+    .blok1{
+        width: auto;
+        height:430px;
+        margin-left:85px;
+        margin-right: 100px;
+        }
+        
+        .blok1 h1{
+        color: black;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding-top: 10px;
+        padding-left:30px;
+        padding-bottom: 0;
+        font-size: 50pt;
+        }
+        .blok1 p{
+        margin-left: 30px;
+        font-size: 30pt;
+        
+        }
+        
+        .contacts{
+        margin-left: 85px;
+        margin-right: 100px;
+        padding-left: 30px;
+        
+        }
+        
+        .contacts h2{
+        border-width: 2px;
+        border-color: black;
+        border-style: solid;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20pt;
+        }
+        .contacts p{
+        
+        font-size: 14pt;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .contacts a{
+        font-size: 14pt;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+        }

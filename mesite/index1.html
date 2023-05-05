@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSite</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="top_head">
+        WebSite
+    </div>
+    <div class="menu_center">
+        <ul>
+            <li><a href="index1.html">Home</a></li>
+            <li><a href="#">Topics</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="about1.html">About</a></li>
+            <li><a href="index.php">Guest Book</a></li>
+        </ul>
+    </div>
+    <div class="section">
+        <div class="main_blok1">
+            <img src="img/p.png";
+            style = "margin-top: 10px;">
+            <h2>Python for Web development</h2>
+            <p>
+                Python web development has a very low entry threshold, but it is an extremely powerful programming language with numerous capabilities. You can safely use it for development because of its highly active community and built-in frameworks.
+            </p>
+            <div class="links">
+                <a href="py_1.html">Learn more</a>
+            </div>
+        </div>
+        <div class="main_blok2">
+            <img src="img/h.jpg";
+            style ="padding-top: 20px;
+            width:130px;
+            height: 165px;
+            padding-left: 9px;
+            padding-right: 23px;">
+            <h2>HTML5</h2>
+            <p>
+                HyperText Markup Language is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables. This article will give you a basic understanding of HTML and ...
+            </p>
+            <div class="links">
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">Learn more</a>
+            </div>
+        </div>
+        <div class="main_blok3">
+            <img src="img/c.png";
+            style = "width:120px;
+            height: 150px;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 20px;">
+            <h2>CSS</h2>
+            <p>
+                CSS3 makes changes to how some visual elements are implemented and rendered by a browser. However, it is not a single hugely unwieldy specification, unlike CSS2. CSS3 is separated into separate modules to facilitate development. This means that the specification comes out in chunks ...
+            </p>
+            <div class="links">
+                <a href="https://www.techopedia.com/definition/28243/cascading-style-sheets-level-3-css3#:~:text=Cascading%20Style%20Sheets%20Level%203%20(CSS3)%20is%20the%20iteration%20of,easier%20to%20learn%20and%20understand.">Learn more</a>
+            </div>
+        </div>
+        <div class="main_blok4">
+            <img src="img/dj.webp";
+            style = "width:120px;
+            height: 150px;
+            margin-top: 22px;
+            padding-left: 20px;
+            padding-right: 20px;">
+            <h2>Django for python developers</h2>
+            <p>
+                Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development, so you can focus on writing your app without needing to reinvent the wheel.
+            </p>
+            <div class="links">
+                <a href="https://www.djangoproject.com/">Learn more</a>
+            </div>
+        </div>
+    </div>
+    <div class="section2">
+        <aside>
+            <h3>Search</h3>
+            <div class="search">
+                <input type="text" id="elastic">
+            </div>
+            <div class="searchw">
+                <ul class="elastic">
+                    <li>Python</li>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Django</li>
+                </ul>
+            </div>
+        </aside>
+        <div class="main_blok5">
+            <div class="rect">
+                <h3> News</h3>
+            </div>
+        </div>
+
+        <div class="main_blok6">
+            <img src="img/ii.jpg">
+            <h4> Danger of artificial intelligence</h4>
+            <p>Meanwhile, Google co-founder Sergey Brin warned of the threat of artificial <br>intelligence that could be used to manipulate people. He notes that such <br>technologies are still shrouded in obscurity. “How will they affect employment <br>in various fields? How can we understand what is going on inside them? <br>What about assessing their objectivity? How can they manipulate people? <br>Are they safe? the entrepreneur asks.</p>
+            <div class="links2">
+                <a href="https://www.computerra.ru/228911/iskusstvennyj-intellekt-mozhet-byt-opasen/">Learn more</a>
+            </div>
+        </div>
+        <div class="main_blok6">
+            <img src="img/ai.jpg">
+            <h4>31 examples of using artificial intelligence in practice</h4>
+            <p>Examples of artificial intelligence in pop culture usually involve a pack of 
+                <br>intelligent robots hell-bent on overthrowing the human race, or at least a fancy 
+                <br>theme park. Sentient machines with general artificial intelligence don't yet
+                <br> exist, and they likely won't exist anytime soon, so we’re safe ... for now.<br>That's not to make light of AI's potential impact on our future. A 2021 Pew 
+                <br>Research survey revealed that 37 percent of respondents ...</p>
+            <div class="links2">
+                <a href="https://builtin.com/artificial-intelligence/examples-ai-in-industry">Learn more</a>
+            </div>
+        </div>
+    </div>
+<script>
+    document.querySelector('#elastic').oninput = function () {
+        let val = this.value.trim();
+        let elasticItems = document.querySelectorAll('.elastic li');
+
+        if (val != ''){
+            elasticItems.forEach(function (elem) {
+                if (elem.innerText.search(val) == -1) {
+                    elem.classList.add('hide');
+                    elem.innerHTML = elem.innerText;
+                }
+                else {
+                    elem.classList.remove('hide');
+                    let str = elem.innerText;
+                    elem.innerHTML = insertMark(str, elem.innerText.search(val), val.length);
+                }
+            });
+        }
+        else {
+            elasticItems.forEach(function (elem){
+                elem.classList.remove('hide');
+                elem.innerHTML = elem.innerText;
+            });
+        }
+}
+
+function insertMark(string, pos, len) {
+    return string.slice(0,pos) + '<mark>' + string.slice(pos,pos+len) + '</mark>' + string.slice(pos+len);
+}
+
+</script>    
+</body>
+</html>
